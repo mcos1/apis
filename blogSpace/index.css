@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: beige;
+  padding: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+nav > h3 {
+  margin: 0;
+}
+
+#blog-list {
+  padding: 5px;
+}
+
+form {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+button {
+  background-color: beige;
+  border: 0.5px solid;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input#post-title,
+textarea#post-body {
+  margin-bottom: 10px;
+  width: 80vw;
+}
